@@ -186,7 +186,7 @@ export const App: React.FC = () => {
       <header className="h-10 px-3 bg-surface border-b border-border flex items-center justify-between text-xs shrink-0">
         <div className="flex items-center gap-2 font-mono font-bold tracking-wide">
           <Layers size={16} className="text-accent" />
-          <span>SQL LAB</span>
+          <h1 className="text-xs">SQL LAB</h1>
           <span className="text-muted text-[10px] font-normal">| DuckDB Engine (Local)</span>
         </div>
 
