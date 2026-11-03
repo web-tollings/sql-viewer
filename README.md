@@ -75,7 +75,6 @@ Users can step through query execution using a deterministic state machine, insp
 - Each challenge uses a dedicated temporary DuckDB schema and validates query results rather than matching solution text.
 - Open the relational debugger and physical plan for each attempt. Challenge data, SQL, and result selection stay separate from the regular workspace.
 - Challenges are local exercises; there is no leaderboard or server-side submission.
-- See [challenge contribution guidance](docs/challenges.md) to add problems through a pull request.
 
 ---
 
@@ -170,7 +169,9 @@ Pull requests and pushes to `master` also run the validation workflow in `.githu
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development and pull request guidelines.
 
-Search metadata, canonical URL, sitemap maintenance, and current single-page-app SEO limits are documented in [docs/seo.md](docs/seo.md).
+## Acknowledgments
+
+The conceptual reference for this project is [sqlvisualizer.pydev.in](https://sqlvisualizer.pydev.in).
 
 ---
 
